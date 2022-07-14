@@ -1,0 +1,15 @@
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\bin\Debug\net6.0\SolutionTask2.exe
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\bin\Debug\net6.0\SolutionTask2.deps.json
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\bin\Debug\net6.0\SolutionTask2.runtimeconfig.json
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\bin\Debug\net6.0\SolutionTask2.dll
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\bin\Debug\net6.0\SolutionTask2.pdb
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.csproj.AssemblyReference.cache
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.AssemblyInfoInputs.cache
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.AssemblyInfo.cs
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.csproj.CoreCompileInputs.cache
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.dll
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\refint\SolutionTask2.dll
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.pdb
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\SolutionTask2.genruntimeconfig.cache
+F:\Учеба\Geek brains_Аналитик\Программирование C#\Семинары\FirstStepInProgramming_3\SolutionTask2\obj\Debug\net6.0\ref\SolutionTask2.dll
