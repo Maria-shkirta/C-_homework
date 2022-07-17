@@ -4,8 +4,8 @@ if (inputLKneOne != null)
 {
     int inputNumber = int.Parse(inputLKneOne);
     
-    int startNumber = 2;
-    string lineOutput = "0";
+    int startNumber = 4;
+    string lineOutput = "2";
 
     while (startNumber <= inputNumber)
     {
