@@ -1,24 +1,42 @@
 ﻿// принимает два числа А и В, возводит число А в натуральную степень В.
 
-Console.Write("Введите число А: ");
+int inputNumberA;
+int inputNumberB;
+int C;
+int i;
 
-int inputNumberA=int.Parse(Console.ReadLine());
+void Read()
+{
+    Console.Write("Введите число А: ");
 
-Console.Write("Введите число В: ");
+    inputNumberA = int.Parse(Console.ReadLine());
 
-int inputNumberB=int.Parse(Console.ReadLine());
+    Console.Write("Введите число В: ");
+
+    inputNumberB = int.Parse(Console.ReadLine());
+}
+
+Read();
 
 void Calculate()
 {
-    int C=1;
-    int i=0;
-    while (i<inputNumberB)
+    C = 1;
+    i = 0;
+    while (i < inputNumberB)
     {
-        C=C*inputNumberA;
+        C = C * inputNumberA;
         i++;
     }
-    Console.WriteLine(C);
+
 
 }
 
 Calculate();
+
+void Print()
+{
+
+    Console.WriteLine(C);
+}
+
+Print();
