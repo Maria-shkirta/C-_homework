@@ -2,8 +2,18 @@
 Console.Write("Введите число:");
 string inputLine=Console.ReadLine();
 int inputNum=int.Parse(inputLine);
+int t;
+
+ t=Environment.TickCount;
 
 Console.WriteLine(sumNums(inputNum));
+ Console.WriteLine("Simple time:{0}ms", Environment.TickCount-t);
+
+ t=Environment.TickCount;
+
+Console.WriteLine(mulRec(inputNum));
+ Console.WriteLine("Simple time:{0}ms", Environment.TickCount-t);
+
 
 int sumNums(int num)
 {
@@ -13,4 +23,17 @@ int sumNums(int num)
         sum *=i;
     }
     return sum;
+}
+
+int mulRec(int num)
+{
+    if (num==1)
+    {
+        return 1;
+    }
+    else 
+    {
+        return num*mulRec(num-1);
+    }
+    
 }
