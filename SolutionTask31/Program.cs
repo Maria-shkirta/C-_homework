@@ -26,11 +26,11 @@ void ColculateTask(int[] outArray)
     {
         if (outArray[i]>0)
         {
-            posetivSum++;
+            posetivSum+=outArray[i];
         }
         else
         {
-            negativSum++;
+            negativSum+=outArray[i];
         }
         i++;
     }
