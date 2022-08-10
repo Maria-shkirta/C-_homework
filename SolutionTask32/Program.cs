@@ -16,6 +16,24 @@ int[] FillingArray()
     return outArray;
 }
  
+// метод инвертирует элементы массива тильда
+int[] InvertArrayTilda(int[] inputArray)
+{
+    //буферная переменная
+    int i=0;
+
+    while (i<inputArray.Length)
+    {
+        //инвертируем элемент
+    inputArray[i]=(~inputArray[i])+1;
+    //увеличиваем инкремент
+    i++;
+    }
+    //выводим массив
+
+    return inputArray;
+}
+
 int[] ColculateTask(int[] inputArray)
 {
     int[] outputArray=new int[12];
@@ -45,4 +63,7 @@ int[] bufferArray=FillingArray();
 PrintIntArray(bufferArray);
 int[] resultArray=ColculateTask(bufferArray);
 Console.WriteLine();
+PrintIntArray(resultArray);
+Console.WriteLine();
+resultArray=InvertArrayTilda(bufferArray);
 PrintIntArray(resultArray);
