@@ -32,12 +32,12 @@ void PrintIntArray(int[] outArray)
 //метод решения задачи 34
 int ColculateTask(int[] inputArray)
 {
-    int resultNumber =0;
+    int resultNumber = 0;
 
     int i = 0;
     while (i < inputArray.Length)
     {
-        if (inputArray[i]%2==0)
+        if (inputArray[i] % 2 == 0)
         {
             resultNumber++;
         }
@@ -53,7 +53,7 @@ int ColculateTask(int[] inputArray)
 int[] buferArray = FillingArray();
 PrintIntArray(buferArray);
 Console.WriteLine();
-int result=ColculateTask(buferArray);
+int result = ColculateTask(buferArray);
 Console.Write(result);
 
 
