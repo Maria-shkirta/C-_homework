@@ -32,9 +32,9 @@ void PrintIntArray(int[] outArray)
 //метод решения задачи 38
 int ColculateTask(int[] outArray)
 {
-    int minNumber = 0;
-    int maxNumber = int.MaxValue;
-    int i = 0;
+    int minNumber = int.MaxValue;
+    int maxNumber = 0;
+    int i = 1;
 
     while (i < outArray.Length)
     {
@@ -50,7 +50,7 @@ int ColculateTask(int[] outArray)
             minNumber = outArray[i];
             
         }
-        i++;
+        i+=2;
         
         
     }
