@@ -12,29 +12,29 @@ int y;
 
 void Read()
 {
-Console.WriteLine("Введите b1: ");
-b1=int.Parse(Console.ReadLine());
-Console.WriteLine("Введите k1: ");
-k1=int.Parse(Console.ReadLine());
-Console.WriteLine("Введите b2: ");
-b2=int.Parse(Console.ReadLine());
-Console.WriteLine("Введите k2: ");
-k2=int.Parse(Console.ReadLine());
+    Console.WriteLine("Введите b1: ");
+    b1 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Введите k1: ");
+    k1 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Введите b2: ");
+    b2 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Введите k2: ");
+    k2 = int.Parse(Console.ReadLine());
 }
 
-void Calculate(int k1,int k2,int b1,int b2)
+void Calculate(int k1, int k2, int b1, int b2)
 {
-    x=((b2-b1)/(k1-k2));
-    y=(k1*x+b1);
+    x = ((b2 - b1) / (k1 - k2));
+    y = (k1 * x + b1);
 
 }
 
-void PrintResult(int x,int y)
+void PrintResult(int x, int y)
 {
-    Console.Write((x,y));
+    Console.Write((x, y));
 }
 
 
 Read();
-Calculate(k1,k2,b1,b2);
-PrintResult(x,y);
+Calculate(k1, k2, b1, b2);
+PrintResult(x, y);
