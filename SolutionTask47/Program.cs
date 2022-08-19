@@ -6,13 +6,13 @@
 //8 7,8 -7,1 9
 
 //метод заполнения двумерного массива
-int[,] FillTwoDemArray(int countRow, int countColumn)
+double[,] FillTwoDemArray(int countRow, int countColumn)
 {
 
     System.Random numberSyntezator = new System.Random();
     int i = 0; int j = 0;
 
-    int[,] outArray = new int[countRow, countColumn];
+    double[,] outArray = new double[countRow, countColumn];
 
     while (i < countRow)
     {
@@ -29,7 +29,7 @@ int[,] FillTwoDemArray(int countRow, int countColumn)
 }
 
 //Метод для печати двумерного массива
-void PrintTwoDimArray(int[,] inputArray)
+void PrintTwoDimArray(double[,] inputArray)
 {
     int i = 0; int j = 0;
 
@@ -49,10 +49,10 @@ void PrintTwoDimArray(int[,] inputArray)
 
 }
 
-int[,] UpdateTwoDimArray(int[,] inputArray)
+double[,] UpdateTwoDimArray(double[,] inputArray)
 {
      int i = 0; int j = 0;
-    double[,] newArray=new double[i,j];
+    double[,] newArray=new double[inputArray.GetLength(0),inputArray.GetLength(1)];
     Random rand=new Random();
      
     while (i < inputArray.GetLength(0))
@@ -65,12 +65,12 @@ int[,] UpdateTwoDimArray(int[,] inputArray)
         }
         i++;
     }
-    return inputArray;
+    return newArray;
 
 }
 
 
-int[,] twoDumArray = FillTwoDemArray(3, 4);
+double[,] twoDumArray = FillTwoDemArray(3, 4);
 PrintTwoDimArray(twoDumArray);
 UpdateTwoDimArray(twoDumArray);
 PrintTwoDimArray(twoDumArray);
