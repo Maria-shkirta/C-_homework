@@ -55,7 +55,7 @@ int FindRow(int[,] inputArray)
         int b=0;
         while (j < inputArray.GetLength(1))
         {
-            b=inputArray[i,j];
+            b+=inputArray[i,j];
             
             j++;
         }
@@ -65,6 +65,7 @@ int FindRow(int[,] inputArray)
                 b=minElement;
                 minIndex=i;
             }
+            i++;
 
     }
     return minIndex;
