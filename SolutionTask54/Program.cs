@@ -49,30 +49,20 @@ int[,] Filtr(int[,] inputArray)
 
     while (i < inputArray.GetLength(0))
     {
+        j=0;
         while (j < inputArray.GetLength(1))
         {
-            j = 0;
             bufferArray[i] = inputArray[i, j];
             j++;
         }
 
-        void BubbleSort(int[] bufferArray)
-        {
-            while (i<bufferArray.Length)
-            {
-                if (bufferArray[i]<bufferArray[i+1])
-                {
-                    bufferArray[i+1]=bufferArray[i];
-                }
-                i++;
-            }
-        }
+        Array.Sort(bufferArray);
+        j=0;
 
-        BubbleSort(bufferArray);
 
         while (j < inputArray.GetLength(1))
         {
-            inputArray[i, j] = bufferArray[i];
+            inputArray[i, j] = bufferArray[j];
             j++;
         }
         i++;
